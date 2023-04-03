@@ -128,7 +128,13 @@ header {
 }
 
 .logo {
-    margin-top: auto;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    margin-left: 0;
+    margin-top: 120px;
 }
 
 .nav-item {
@@ -464,4 +470,5 @@ section {
 }
 .carrito {
     width: 100%;
+}
 }
