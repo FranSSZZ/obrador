@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pedidos.css">
+    <script src="pedidos.js" async></script>
+    <title>La Cocina de mi vecina - Pedidos </title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="#" class="logo"><img src="img/logovecina.png" alt="logo la cocina de mi vecina"></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Café</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Obrador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Muerte por Chocolate</span>
+                <img src="img/MuerteporChocolate.jpg" alt="Tarta" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Cheescake de Nutella</span>
+                <img src="img/CheescakedeNutella.jpg" alt="Tarta" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Dulce de Leche y Nueces</span>
+                <img src="img/DulcedeLecheyNueces.jpg" alt="" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Tres Chocolates</span>
+                <img src="img/TresChocolates.jpg" alt="" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Red Velvet</span>
+                <img src="img/RedVelvet.jpg" alt="" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pie de Limón/span>
+                <img src="img/PiedeLimon.jpg" alt="" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Guinness</span>
+                <img src="img/Guinness.jpg" alt="" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Cheescake de Nutella</span>
+                <img src="img/CheescakedeNutella.jpg" alt="" class="img-item">
+                <span class="precio-item">€2,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Brigadeiros</span>
+                <img src="img/brigadeiros.jpg" alt="" class="img-item">
+                <span class="precio-item">€1,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Carrito de Compra</h2>
+            </div>
+
+            <div class="carrito-items"></div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        €19,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-content-about">
+                    <h4>Nosotros</h4>
+                    <div class="circle">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Praesentium odio labore dolorum veritatis, culpa cumque eum
+                        reprehenderit iure, commodi, repellat eaque possimus obcaecati
+                        assumenda exercitationem?
+                        Aperiam provident accusantium laboriosam. Necessitatibus!</p>
+                </div>
+                <div class="footer-div">
+                    <div class="social-media">
+                        <h4>Siguenos</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Noticias</h4>
+                        <form action="" class="news-form">
+                            <input type="text" class="news-input" placeholder="Escribe tu email">
+                            <button class="news-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
