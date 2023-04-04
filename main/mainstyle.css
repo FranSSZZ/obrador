@@ -24,6 +24,18 @@ body {
     overflow-x: hidden;
 }
 
+#custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("img/pastel.png");
+    background-size: cover;
+    z-index: 9999;
+    pointer-events: none;
+  }
+
 section {
     /*padding: 3.9rem 0;*/
     overflow: hidden;
